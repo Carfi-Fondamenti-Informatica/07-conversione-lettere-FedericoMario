@@ -1,5 +1,16 @@
 #include <iostream>
+#include "lib.h"
 
-int main(){
+using namespace std;
+int main() {
+    char a;
+    cin >>a;
+    if (convert(a)){
+        cout<<a<<endl;
+    }else{
+        cout<<"errore"<<endl;
+    }
+    return 0;
+
   return 0;
 }
