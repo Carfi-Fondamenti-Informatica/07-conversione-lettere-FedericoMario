@@ -1,12 +1,14 @@
 #include "lib.h"
-bool convert (char & a) {
-    if ((a>=65 && a <= 90) || (a>=97 && a<=122)) {
-        if (a>=65 && a<=90) {
-            a+=32;
-        } else {
-            a-=32; 
-        } return 1;
-    } else {
-        return 0;
+bool carattere(char &c){
+    if (c >= 65 && c <= 90) {
+        c += 32;
+        return true;
+    }
+    else if (c >= 97 && c <= 122) {
+        c -= 32;
+        return true;
+    }
+    else {
+        return false;
     }
 }
