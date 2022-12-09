@@ -1,4 +1,4 @@
-#ifndef CONVERSIONE_ES7_H
-#define CONVERSIONE_ES7_H
-bool convert (char &);
-#endif //CONVERSIONE_ES7_H
+#ifndef ESERCIZI_TUTORATO_LIB_H
+#define ESERCIZI_TUTORATO_LIB_H
+bool carattere(char &);
+#endif
